@@ -1,0 +1,226 @@
+
+   
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kidz World</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #111;
+}
+
+header {
+    height: 40px;
+    padding: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffca28;
+}
+
+
+
+.hero {
+    background: #ff4263;
+    color: white;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+   
+}
+
+.hero h1 {
+    font-family: Georgia, serif;
+    font-size: 42px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+
+.hero img {
+    width: 45%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+h3 {
+    font-family: Georgia, serif;
+    margin-bottom: 10px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 35px;
+}
+
+.item img {
+    width: 100%;
+    height: 165px;
+    object-fit: cover;
+    border-radius: 7px;
+    margin-bottom: 5px;
+}
+
+
+
+.item b {
+    font-size: 13px;
+    margin-bottom: 7px;
+     display: block;
+
+}
+
+.item small {
+    color: #888;
+    font-size: 11px;
+    margin-bottom: 12px;
+}
+
+.item p {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+button {
+    float: right;
+    background: #6093ff;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+
+
+.games img {
+    height: 200px;
+    background: #ffca28;
+}
+
+
+
+    </style>
+</head>
+<body>
+
+<header>
+    <b>KIDZ WORLD</b>
+    🛒 Cart items (0)
+</header>
+
+<div class="hero">
+<div>
+<h1>Shop.<br>Have Fun.<br>Repeat.</h1>
+<b>#NewAndNow</b>
+</div>
+<img src="kw-background (1).png" alt="Happy children">
+</div>
+
+<div>
+    <h3>Discover New Books</h3>
+    <div class="products">
+        <div class="item">
+        <img src="book1.png" alt="Book">
+        <b>This Was Our Pact</b><small>Ryan Andrews</small>
+        <p>$7.49 <button>Add 🛒</button></p>
+        </div>
+    <div class="item">
+    <img src="book2.png" alt="Book">
+    <b>The Famous Five</b><small>Enid Blyton</small>
+     <p>$4.59 <button>Add 🛒</button></p>
+    </div>
+    <div class="item">
+        <img src="book3.png" alt="Matilda">
+    <b>Matilda</b><small>Roald Dahl</small>
+            <p>$6.80 <button>Add 🛒</button></p>
+        </div>
+        <div class="item">
+     <img src="book4.png" alt="Harry Potter">
+    <b>Harry Potter</b><small>JK Rowling</small>
+    <p>$10 <button>Add 🛒</button></p>
+        </div>
+   <div class="item">
+         <img src="book5.png" alt="Book">
+          <b>For Young Readers</b><small>Ruskin Bond</small>
+         <p>$7.29 <button>Add 🛒</button></p>
+        </div>
+        <div class="item">
+            <img src="book6.png" alt="Diary">
+            <b>Wimpy Kid - DIY</b><small>Jeff Kinney</small>
+            <p>$4.99 <button>Add 🛒</button></p>
+        </div>
+    </div>
+</div>
+
+<div>
+    <h3>Discover New Games</h3>
+    <div class="products games">
+        <div class="item">
+            <img src="dart.png" alt="Dart game">
+            <b>Dart Board</b><small>Wooden board, 16 inches</small>
+            <p>$17.49 <button>Add 🛒</button></p>
+        </div>
+        <div class="item">
+            <img src="board-game.png" alt="Board game">
+            <b>Connect 4</b><small>Board game, multiplayer</small>
+            <p>$19.99 <button>Add 🛒</button></p>
+        </div>
+        <div class="item">
+            <img src="jenga.png" alt="Wooden blocks">
+            <b>Jenga</b><small>Wooden blocks, 54 pieces</small>
+            <p>$20.99 <button>Add 🛒</button></p>
+        </div>
+        <div class="item">
+            <img src="monopoly.png" alt="Board game">
+            <b>Monopoly</b><small>Family board game</small>
+            <p>$19.49 <button>Add 🛒</button></p>
+        </div>
+    </div>
+</div>
+
+<div>
+    <h3>Handmade with love</h3>
+    <div class="products">
+        <div class="item">
+            <img src="bookmarks.png" alt="Bookmarks">
+            <b>Bookmarks</b><small>Handmade with love</small>
+            <p>$12.49 <button>Add 🛒</button></p>
+        </div>
+        <div class="item">
+            <img src="bday-card.png" alt="Birthday card">
+            <b>Birthday card</b><small>Handmade with love</small>
+            <p>$19.99 <button>Add 🛒</button></p>
+        </div>
+        <div class="item">
+            <img src="soft-toy.png" alt="Stuffed toys">
+            <b>Stuffed toys</b><small>Handmade with love</small>
+            <p>$15.99 <button>Add 🛒</button></p>
+        </div>
+        <div class="item">
+            <img src="dream-catcher.png" alt="Dream catcher drawing">
+            <b>Dream catcher drawing</b><small>Handmade with love</small>
+            <p>$18.49 <button>Add 🛒</button></p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
